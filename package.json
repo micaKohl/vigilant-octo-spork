@@ -1,11 +1,11 @@
 {
-  "name": "copilot-test-project",
+  "name": "vigilant-octo-spork",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:prod": "ng build --configuration production --base-href https://micakohl.github.io/copilot-test-project/",
+    "build:prod": "ng build --configuration production --base-href /vigilant-octo-spork/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
