@@ -1,0 +1,11 @@
+<!-- <div cdkDraggable class="example-box">
+    <mat-card>
+        <mat-card-content>I'm just a draggable little guy</mat-card-content>
+    </mat-card>
+</div>
+   -->
+
+   <div class="example-box" cdkDrag>
+    <h1 *ngIf="message === ''"><mat-icon fontIcon="home"></mat-icon></h1>
+    <h1 *ngIf="message != ''">{{message}}</h1>
+  </div>
